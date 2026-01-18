@@ -95,3 +95,12 @@ Challenge_EN = {
 	Challenge_AStormIsComingInfoBox = " <CENTRE> Endless bad weather ahead...",
 	Challenge_TheDescendingFogInfoBox = " <CENTRE> Its getting misty...",
 }
+
+UI_EN = {
+	UI_options_PillowsRandomScenarios_title = "Pillow's Random Scenarios",
+	UI_options_PillowsRandomScenarios_desc = "Options for difficulty settings in Pillow's Random Scenarios.",
+	UI_options_PillowsRandomScenarios_alwaysdire = "Always Dire",
+	UI_options_PillowsRandomScenarios_alwaysdire_tooltip = "Force Dire difficulty on all scenarios.",
+	UI_options_PillowsRandomScenarios_alwaysbrutal = "Always Brutal",
+	UI_options_PillowsRandomScenarios_alwaysbrutal_tooltip = "Force Brutal difficulty on all scenarios.",
+}
