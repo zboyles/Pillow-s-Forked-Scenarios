@@ -16,10 +16,9 @@ HospitalChallenge.DifficultyCheck = function()
 	local pl = getPlayer();
 	pillowmod = pl:getModData();
 
-	if ModOptions and ModOptions.getInstance then
-		pillowmod.alwaysdire = PillowModOptions.options.alwaysdire
-		pillowmod.alwaysbrutal = PillowModOptions.options.alwaysbrutal
-	end 
+	-- Use native B42 ModOptions helper functions
+	pillowmod.alwaysdire = PillowModOptions.getAlwaysDire()
+	pillowmod.alwaysbrutal = PillowModOptions.getAlwaysBrutal()
 
 
 	--1in2 is dire, and 1in4 of those is brutal.
